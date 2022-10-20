@@ -11,7 +11,7 @@ body{
 
 .header_container__content{
     height: 100%;
-    margin: 0 120px;
+    margin: 0 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,7 +19,7 @@ body{
 }
 
 .logo_header {
-    height: 54px;
+    height: 30px;
     width: auto;
 
     img {
@@ -28,10 +28,14 @@ body{
     }
 }
 
+.material-symbols-outlined {
+    color: white;
+}
+
 .buttons{
-    display: flex;
     flex-direction: row;
     align-items: center;
+    display: none;
 }
 
 .button_login{

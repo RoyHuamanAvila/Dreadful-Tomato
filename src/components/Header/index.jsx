@@ -11,16 +11,19 @@ const Header = () => {
               <img src={logo} alt="" />
             </div>
             <div className="buttons">
-            <div className="button_login">
-              <div>Login</div>
-              <div className="icon_login">
-                <img src={iconLogin} alt="" />
+              <div className="button_login">
+                <div>Login</div>
+                <div className="icon_login">
+                  <img src={iconLogin} alt="" />
+                </div>
+              </div>
+              <div className="button_trial">
+                <p>Star your free trial</p>
               </div>
             </div>
-            <div className="button_trial">
-              <p>Star your free trial</p>
-            </div>
-            </div>
+            <span className="material-symbols-outlined">
+            menu
+            </span>
           </div>
         </div>
   )
