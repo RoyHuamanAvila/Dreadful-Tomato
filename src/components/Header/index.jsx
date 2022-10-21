@@ -21,9 +21,20 @@ const Header = () => {
                 <p>Star your free trial</p>
               </div>
             </div>
-            <span className="material-symbols-outlined">
+            <button className="material-symbols-outlined button-menu" data-bs-toggle='collapse' data-bs-target='#menu-content' aria-expanded="false" aria-controls="collapseExample">
             menu
-            </span>
+            </button>
+          </div>
+          <div className='collapse navbar-collapse' id='menu-content'>
+            <div className="button_trial">
+              <p>Star your free trial</p>
+            </div>
+            <div className="button_login">
+                <div>Login</div>
+                <div className="icon_login">
+                  <img src={iconLogin} alt="" />
+                </div>
+              </div>
           </div>
         </div>
   )
