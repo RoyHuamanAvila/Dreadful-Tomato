@@ -92,3 +92,28 @@ body{
         margin: 0;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .button-menu{
+        display: none;
+    }
+    .buttons{
+        display: flex;
+    }
+    .logo_header{
+        height: 54px;
+    }
+    .header_container{
+        padding: 0px;
+    }
+    .header_container__content{
+        margin: 0px 120px;
+    }
+    .button_login{
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+    .button_trial{
+        margin-top: 0px;
+    }
+}
