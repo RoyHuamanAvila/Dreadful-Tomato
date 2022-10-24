@@ -4,3 +4,8 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (min-width: 1024px) {
+    .content_app{
+        flex-direction: row;
+    }
+}
